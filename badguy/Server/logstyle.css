@@ -1,0 +1,90 @@
+		html,body{
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+		}
+		.mframe{
+			margin: 0;
+			background-image: url(img/backg4.png);
+			background-size: 150px;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+
+		}
+		.container {
+			border: 3px solid;
+			border-radius: 10px;
+			border-color: #aaaaaa;
+			position: relative;
+			display: block;
+			background: #ffffff;
+			height: 300px;
+			width: 500px;
+			top: 30%;
+			margin: auto;
+
+		}
+		.logintable{
+			border: 10px solid;
+			border-image: url(img/border_y.png) 10 round round;
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+		.input_caption{
+
+			display: block;
+			margin-bottom: 10px;
+			width: 100%;
+			font-weight: 500;
+		}
+		.input_form{
+			border: solid 1px;
+			border-radius: 10px;
+			display: block;
+			width: 80%;
+			margin-left: 10%;
+			margin-bottom: 10px;
+		}
+		.input_button{
+			border: solid 1px;
+			border-radius: 10px;
+			display: block;
+			width: 80%;
+			margin-left: 10%;
+			margin-top: 50px;
+			height: 24px;
+		}
+		.header{
+			font-size: 36px;
+			font-weight: 700;
+		}
+		.footer{
+			font-size: 12px;
+		}
+		table,td{
+			
+			text-align: center;
+		}
+		.logo{
+			position: relative;
+
+			height: 250px;
+		}
+		button{
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+		}
+		input{
+			border: none;
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+
+		}

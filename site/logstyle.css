@@ -1,0 +1,55 @@
+		html,body{
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+		}
+		.mframe{
+			margin: 0;
+			background-image: url(backg4.png);
+			background-size: 150px;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+
+		}
+		.container {
+			border-radius: 10px;
+		
+			position: relative;
+			display: block;
+			background: #ffffff;
+			height: 300px;
+			width: 500px;
+			top: 30%;
+			margin: auto;
+			padding: 10px;
+
+		}
+		.logintable{
+			border: solid;
+			border-color: #aaaaaa;
+			border-radius: 10px;
+			border-width: 1px;
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+		table,td{
+			
+			text-align: center;
+		}
+		.logo{
+			position: relative;
+
+			height: 250px;
+		}
+		button{
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+		}
